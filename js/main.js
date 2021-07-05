@@ -1,8 +1,35 @@
+function clicar (){
+    document.getElementById("agradecimento").innerHTML = "<h1>Obrigado por clicar</h1>";
+    console.log(document.getElementById("agradecimento"));
+    //alert ("Obrigado por clicar!!!")
+}
+
+function trocar (){
+    window.open("https://fabiorisantos.github.io/"); //outra aba
+    //window.location.href = "https://fabiorisantos.github.io/"; //mesma aba
+}
+
+function mudar () {
+    document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse!!!";
+    //alert("Trocar texto");
+}
+
+function voltar () {
+    document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    //alert("Trocar texto");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
+
+/*
 var d = new Date ();
 console.log(d);
 console.log(d.getMonth()+1);
 console.log(d.getDate());
 console.log(d.getHours());
+*/
 
 /*
 var count;
